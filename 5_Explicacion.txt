@@ -1,0 +1,6 @@
+Sonar: Detecta errores, vulnerabilidades de seguridad, deuda técnica y duplicidades en el código estático.
+Quality Gate: Conjunto de umbrales que el código debe superar (ej: >70% coverage, 0 bugs) para aprobar el pipeline.
+Coverage: Porcentaje de líneas de código que son ejecutadas y verificadas por tus tests automáticos.
+Code Smell: Código que funciona pero está mal diseñado (ej: funciones largas, código duplicado), dificultando el mantenimiento.
+Lo más complicado: Configurar correctamente las exclusiones de coverage (para ignorar 
+main.ts y módulos) y asegurar que la base de datos se creara automáticamente solo durante los tests E2E.
