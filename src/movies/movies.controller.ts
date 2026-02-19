@@ -1,9 +1,7 @@
 import { Controller, Get } from '@nestjs/common';
 import { MoviesService } from './movies.service';
-import { Movie } from './entities/movie.entity';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
 import { MovieDto } from './dto/movie.dto';
-/*import { Movie } from './movies.entity';*/
 
 //@ApiTags('movies')
 @Controller('api/movies')
