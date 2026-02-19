@@ -71,7 +71,7 @@
     },
     "collectCoverageFrom": [
       "**/*.ts",
-      "!main.ts",
+      "!**/main.ts",
       "!**/*.module.ts"
     ],
     "coverageReporters": [
